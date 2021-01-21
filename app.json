@@ -1,0 +1,29 @@
+
+{
+    "name": "Forward-Tag-Remover-Mega",
+    "description": "A Simple Forward Tag remover Telegram Bot Made in Go. Create ",
+    "keywords": [
+        "telegram",
+        "bot"
+    ],
+    "website": "https://github.com/123456789592/Forward-Tag-Remover-Mega",
+    "repository": "https://github.com/123456789592/Forward-Tag-Remover-Mega",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/go"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
